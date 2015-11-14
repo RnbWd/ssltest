@@ -1,13 +1,12 @@
 # Let’s Encrypt A+ SSL Server Test
 
-A demo Node/Express 4 app that gets A+ on the Qualys SSL Labs SSL Server Test using [Let’s Encrypt](https://letsencrypt.org) - zero config!!
+A zero-config Node/Express 4 app that gets A+ on the Qualys SSL Labs SSL Server Test
 
 First install [letsencrypt](https://github.com/letsencrypt/letsencrypt) and generate certificates. Documentation can be found [here](https://letsencrypt.readthedocs.org/en/latest/index.html).
 
 ## Usage
 
 Requires **node 4.2.x ** and a **real domain**
-
 
 npm install .
 
@@ -31,7 +30,3 @@ As of 2015 11 14 this nodejs app passed the scan with A+ result.
 ## License
 
 MIT
-
-## Authors
-
-David Wisner <dwisner6@gmail.com> @rnb_wd
