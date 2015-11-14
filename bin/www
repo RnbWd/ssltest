@@ -13,13 +13,17 @@ var https = require('https');
 var ocsp = require('ocsp');
 var log = console.log.bind(console);
 
+// This probably isn't necessary anymore?
 global.appRoot = path.dirname(path.resolve(__dirname))
 
 var cache = new ocsp.Cache();
 
-// Should be the top level of our express app
-var domain = os.hostname() || 'example.com'
-var sslDir = `/etc/letsencrypt/live/${domain}`
+// Detect host's domain name
+var domain = os.hostname() || 'example.com';
+
+// Path to letsencrypt certificates
+var sslDir = `/etc/letsencrypt/live/${domain}`;
+
 var privateKey = fs.readFileSync(`${sslDir}/privkey.pem`),
 	certificate = fs.readFileSync(`${sslDir}/cert.pem`),
 	certificateAuthority = fs.readFileSync(`${sslDir}/chain.pem`);
