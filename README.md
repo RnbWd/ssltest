@@ -1,6 +1,6 @@
 # A demo Node/Express 4 app that gets A+ on the Qualys SSL Labs SSL Server Test
 
-This app is fairly boring right now, since the authors patched node itself to implement the correct settings.
+I'm using this app to test [letsencrypt](https://github.com/letsencrypt/letsencrypt)
 
 ## Usage
 
@@ -8,17 +8,17 @@ Requires **node 4.2 +**
 
 npm install .
 
-Add your certs to /ssl. The following are expected:
+The following are expected:
 
- - Private key `example.com.private-key`
- - Certificate `example.crt`
- - CA certificate bundle `example-ca.crt`
+ - Live Path `/etc/letsencrypt/live`  
+ - Domain '$domain' (use your actual domain name)
+ - Private key `privkey.pem`
+ - Certificate `cert.pem`
+ - CA certificate `chain.pem`
 
 Start the server:
 
     node bin/www
-
-And visit https://localhost:3000/
 
 Visit [Qualys SSL Labs SSL Server Test](https://www.ssllabs.com/ssltest)
 
