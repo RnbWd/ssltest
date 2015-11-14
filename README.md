@@ -6,7 +6,7 @@ First install [letsencrypt](https://github.com/letsencrypt/letsencrypt) and gene
 
 ## Usage
 
-Requires **node 4.2.x **
+Requires **node 4.2.x**
 
 npm install .
 
