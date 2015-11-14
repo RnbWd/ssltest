@@ -2,7 +2,7 @@
 
 A zero-config Node/Express 4 app that gets A+ on the Qualys SSL Labs SSL Server Test
 
-First install [letsencrypt](https://github.com/letsencrypt/letsencrypt) and generate certificates. Documentation can be found [here](https://letsencrypt.readthedocs.org/en/latest/index.html).
+First install [letsencrypt](https://github.com/letsencrypt/letsencrypt) and generate some *real certs*. Documentation can be found [here](https://letsencrypt.readthedocs.org/en/latest/index.html).
 
 ## Usage
 
