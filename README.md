@@ -25,9 +25,9 @@ Visit [Qualys SSL Labs SSL Server Test](https://www.ssllabs.com/ssltest)
 
 Clear the cache for your site if there's an existing entry. This will initiate a new scan.
 
-As of 2015 11 14 this nodejs app passed the scan with A+ result.
+As of 2015 11 14 this app passed the scan with A+ result.
 
-Much <3 https://letsencrypt.org
+Much love https://letsencrypt.org
 
 ## License
 
