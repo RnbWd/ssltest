@@ -1,10 +1,7 @@
 {
   "name": "ssltest",
-  "version": "0.0.0",
-  "private": true,
-  "scripts": {
-    "start": "node ./bin/www"
-  },
+  "description": "ssltest",
+  "version": "0.0.1",
   "dependencies": {
     "body-parser": "^1.14.1",
     "cookie-parser": "^1.4.0",
@@ -16,5 +13,11 @@
     "morgan": "^1.6.1",
     "ocsp": "^1.0.1",
     "serve-favicon": "^2.3.0"
+  },
+  "license": "MIT",
+  "main": "app.js",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
   }
 }
