@@ -6,7 +6,7 @@ First install [letsencrypt](https://github.com/letsencrypt/letsencrypt) and gene
 
 ## Usage
 
-Requires **node 4.2.x ** and a **real domain**
+Requires **node 4.2.x **
 
 npm install .
 
@@ -26,6 +26,8 @@ Visit [Qualys SSL Labs SSL Server Test](https://www.ssllabs.com/ssltest)
 Clear the cache for your site if there's an existing entry. This will initiate a new scan.
 
 As of 2015 11 14 this nodejs app passed the scan with A+ result.
+
+Much <3 https://letsencrypt.org
 
 ## License
 
