@@ -27,7 +27,7 @@ Clear the cache for your site if there's an existing entry. This will initiate a
 
 As of 2015 11 14 this app passed the scan with A+ result.
 
-Much love https://letsencrypt.org
+Much love [Let's Encrypt](https://letsencrypt.org)
 
 ## License
 
